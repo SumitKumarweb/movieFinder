@@ -53,8 +53,11 @@ section #cards .card {
 }
 section #cards .card img {
   width: 250px;
+  height: 300px;
   border-radius: 10px;
   margin: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section #cards .card h1 {
   overflow: hidden;
